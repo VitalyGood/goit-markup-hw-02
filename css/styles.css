@@ -35,6 +35,9 @@ h3 {
 footer{
     background-color: #2E2F42;
 }
+.paragraf-footer{
+    color: #F4F4FD;
+}
 
 .body{
     font-family: roboto;
@@ -53,15 +56,65 @@ footer{
 .contacts-link{
     color: #434455;
     font-family: Roboto;
-    text-decoration: underline;
     font-weight: 400;
     size: 12px;
     line-height: 16px;
     letter-spacing: 4%;
+    text-decoration: none;
+    font-style: normal;
 }
 .contacts-link:hover,
 .contacts-link:focus{
     color: #404bbf;
+}
+
+.logo{
+    color: #2E2F42;
+    font-family: ralewey;
+    text-transform: uppercase;
+    font-weight: bold;
+    size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    text-decoration: none;
+}
+.logo-w{
+    color: #4D5AE5;
+    font-family: ralewey;
+    text-transform: uppercase;
+    font-weight: bold;
+    size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+}
+.logo-footer{
+    color: #F4F4FD;
+    font-family: ralewey;
+    text-transform: uppercase;
+    font-weight: bold;
+    size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    text-decoration: none;
+}
+.logo-link{
+    text-decoration: none;
+}
+.nav a{
+    color: #2E2F42;
+    font-family: roboto;
+    font-weight: 500;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: #404BBF;
+}
+.active-contacts:active{
+    text-decoration:underline ;
 }
 
 
