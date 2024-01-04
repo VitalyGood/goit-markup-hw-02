@@ -1,0 +1,67 @@
+body{
+    font-family: 'roboto', 'raleway', sans-serif;
+    color: #434455;
+    background-color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-family: roboto;
+    font-weight: 700;
+    size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+    color: white;
+}
+
+h2 {
+    color: #2E2F42;
+    font-family: roboto;
+    font-weight: 700;
+    size: 36px;
+    letter-spacing: 2%;
+}
+
+h3 {
+    color: #2E2F42;
+    font-family: roboto;
+    font-weight: 500;
+    size: 20px;
+    letter-spacing: 2%;
+}
+footer{
+    background-color: #2E2F42;
+}
+
+.body{
+    font-family: roboto;
+    font-weight: 400;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+.section-one{
+    background-color: #2E2F42;
+}
+.section-three{
+    background-color: #F4F4FD;
+}
+
+.contacts-link{
+    color: #434455;
+    font-family: Roboto;
+    text-decoration: underline;
+    font-weight: 400;
+    size: 12px;
+    line-height: 16px;
+    letter-spacing: 4%;
+}
+.contacts-link:hover,
+.contacts-link:focus{
+    color: #404bbf;
+}
+
+
