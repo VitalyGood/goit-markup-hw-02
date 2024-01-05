@@ -1,11 +1,11 @@
 body{
-    font-family: 'roboto', 'raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: white;
 }
 
 .body {
-    font-family: roboto;
+    font-family: 'roboto', sans-serif;
     font-weight: 400;
     size: 16px;
     line-height: 1.5;
@@ -17,23 +17,23 @@ ul{
 
 .logo {
     color: #2E2F42;
-    font-family: ralewey;
+    font-family: 'ralewey', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    size: 18px;
-    line-height: 1.16;
-    letter-spacing: 3%;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
 .logo-w {
     color: #4D5AE5;
-    font-family: ralewey;
+    font-family: 'ralewey', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    size: 18px;
-    line-height: 1.16;
-    letter-spacing: 3%;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .logo-link {
@@ -42,9 +42,9 @@ ul{
 
 .contacts-link {
     color: #434455;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    size: 12px;
+    font-size: 12px;
     line-height: 1.33;
     letter-spacing: 4%;
     text-decoration: none;
@@ -58,9 +58,9 @@ ul{
 
 .nav a {
     color: #2E2F42;
-    font-family: roboto;
+    font-family: "roboto",sans-serif;
     font-weight: 500;
-    size: 16px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
     text-decoration: none;
@@ -78,7 +78,7 @@ h2{
     color: #2E2F42;
     font-family: roboto;
     font-weight: 700;
-    size: 36px;
+    font-size: 36px;
     letter-spacing: 2%;
 }
 
@@ -86,20 +86,21 @@ h3{
     color: #2E2F42;
     font-family: roboto;
     font-weight: 500;
-    size: 20px;
+    font-size: 20px;
     letter-spacing: 2%;
 }
 
 .section-one{
     background-color: #2E2F42;
 }
-h1 {
+.h1-title {
     font-family: roboto;
     font-weight: 700;
-    size: 56px;
+    font-size: 56px;
     letter-spacing: 2%;
-    line-height: 1.0714;
+    line-height: 1.07;
     color: white;
+    text-align: center;
 }
 
 .batton-service{
@@ -114,7 +115,7 @@ h1 {
 
 .text-button{
     font-family: roboto;
-    size: 16px; 
+    font-size: 16px; 
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 4%;
@@ -124,8 +125,6 @@ h1 {
     background-color: #F4F4FD;
 }
 
-
-
 footer {
     background-color: #2E2F42;
 }
@@ -134,7 +133,7 @@ footer {
     font-family: ralewey;
     text-transform: uppercase;
     font-weight: 700;
-    size: 18px;
+    font-size: 18px;
     line-height: 1.16;
     letter-spacing: 3%;
     text-decoration: none;
@@ -142,7 +141,7 @@ footer {
 .paragraf-footer {
     color: #F4F4FD;
     font-weight: 400;
-    size: 12px;
+    font-size: 12px;
     line-height: 1.16;
     letter-spacing: 4%;
 }
