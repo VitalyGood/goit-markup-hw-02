@@ -4,20 +4,77 @@ body{
     background-color: white;
 }
 
+.body {
+    font-family: roboto;
+    font-weight: 400;
+    size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
 ul{
     list-style-type: none;
 }
 
-h1{
-    font-family: roboto;
-    font-weight: 700;
-    size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
-    color: white;
+.logo {
+    color: #2E2F42;
+    font-family: ralewey;
+    text-transform: uppercase;
+    font-weight: bold;
+    size: 18px;
+    line-height: 1.16;
+    letter-spacing: 3%;
+    text-decoration: none;
 }
 
-h2 {
+.logo-w {
+    color: #4D5AE5;
+    font-family: ralewey;
+    text-transform: uppercase;
+    font-weight: 700;
+    size: 18px;
+    line-height: 1.16;
+    letter-spacing: 3%;
+}
+
+.logo-link {
+    text-decoration: none;
+}
+
+.contacts-link {
+    color: #434455;
+    font-family: Roboto;
+    font-weight: 400;
+    size: 12px;
+    line-height: 1.33;
+    letter-spacing: 4%;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
+}
+
+.nav a {
+    color: #2E2F42;
+    font-family: roboto;
+    font-weight: 500;
+    size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #404BBF;
+}
+
+.active-contacts:active {
+    text-decoration: underline;
+}
+
+h2{
     color: #2E2F42;
     font-family: roboto;
     font-weight: 700;
@@ -25,96 +82,69 @@ h2 {
     letter-spacing: 2%;
 }
 
-h3 {
+h3{
     color: #2E2F42;
     font-family: roboto;
     font-weight: 500;
     size: 20px;
     letter-spacing: 2%;
 }
-footer{
-    background-color: #2E2F42;
-}
-.paragraf-footer{
-    color: #F4F4FD;
-}
 
-.body{
-    font-family: roboto;
-    font-weight: 400;
-    size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-}
 .section-one{
     background-color: #2E2F42;
 }
+h1 {
+    font-family: roboto;
+    font-weight: 700;
+    size: 56px;
+    letter-spacing: 2%;
+    line-height: 1.0714;
+    color: white;
+}
+
+.batton-service{
+ cursor: pointer;
+ background-color: #4D5AE5;
+ color: white;
+}
+
+.batton-service:hover{
+    background-color: #404BBF;   
+}
+
+.text-button{
+    font-family: roboto;
+    size: 16px; 
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 4%;
+}
+
 .section-three{
     background-color: #F4F4FD;
 }
 
-.contacts-link{
-    color: #434455;
-    font-family: Roboto;
-    font-weight: 400;
-    size: 12px;
-    line-height: 16px;
-    letter-spacing: 4%;
-    text-decoration: none;
-    font-style: normal;
-}
-.contacts-link:hover,
-.contacts-link:focus{
-    color: #404bbf;
-}
 
-.logo{
-    color: #2E2F42;
-    font-family: ralewey;
-    text-transform: uppercase;
-    font-weight: bold;
-    size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
-    text-decoration: none;
+
+footer {
+    background-color: #2E2F42;
 }
-.logo-w{
-    color: #4D5AE5;
-    font-family: ralewey;
-    text-transform: uppercase;
-    font-weight: bold;
-    size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
-}
-.logo-footer{
+.logo-footer {
     color: #F4F4FD;
     font-family: ralewey;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 700;
     size: 18px;
-    line-height: 21px;
+    line-height: 1.16;
     letter-spacing: 3%;
     text-decoration: none;
 }
-.logo-link{
-    text-decoration: none;
-}
-.nav a{
-    color: #2E2F42;
-    font-family: roboto;
-    font-weight: 500;
-    size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    text-decoration: none;
-}
-
-.nav a:hover{
-    color: #404BBF;
-}
-.active-contacts:active{
-    text-decoration:underline ;
+.paragraf-footer {
+    color: #F4F4FD;
+    font-weight: 400;
+    size: 12px;
+    line-height: 1.16;
+    letter-spacing: 4%;
 }
 
 
