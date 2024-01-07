@@ -7,7 +7,7 @@ body{
 .body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    size: 16px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -61,19 +61,9 @@ ul {
     color: #404bbf;
 } 
 
-.nav-list{
+.nav-list, .active-contacts {
     color: #2E2F42;
     font-family: "Roboto",sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    font-style: normal;
-}
-.active-contacts{
-    color: #2E2F42;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -84,6 +74,9 @@ ul {
 
 .nav-list:hover {
     color: #404BBF;
+}
+.nav-list:focus{
+    color: #404bbf
 }
 .active-contacts:active {
     text-decoration: underline;
@@ -109,7 +102,7 @@ ul {
 }
 
 
-/*title-h2-h23*/
+/*title-h2-h3*/
 .h2-title{
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
@@ -164,9 +157,17 @@ ul {
 }
 
 /*section-2*/
+.contact-list> .content-paragraf.{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
 .sec-two-list{
     list-style-type: none;
 }
+
 
 .content-paragraf{
     letter-spacing: 0.02em;
@@ -177,13 +178,61 @@ ul {
 .section-three{
     background-color: #F4F4FD;
 }
-.list-Team{
+
+.section-three> .h2-title{
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    line-height: 1.11;
+    text-align: center;
+}
+
+.list-Team> .list-our-team> .h3-title{
     background-color: #FFFFFF;
+}
+.paragraf-team{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 /*section-4*/
 
+.section-four> .h2-title{
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    line-height: 1.11;
+    text-align: center;
+}
 
+.img-list-portfolio> .h3-title {
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
+.paragraf-portfolio{
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    font-weight: 400;
+    size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* footer */
 .footer {
     background-color: #2E2F42;
 }
