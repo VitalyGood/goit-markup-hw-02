@@ -127,14 +127,6 @@ ul {
     background-color: #404BBF;   
 }
 
-.text-button{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px; 
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-}
-
 /*section-2*/
 .contact-list> .content-paragraf.{
     font-weight: 500;
@@ -157,7 +149,7 @@ ul {
     background-color: #F4F4FD;
 }
 
-.section-three> .h-two-title{
+.section-three> .two-title{
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -168,10 +160,7 @@ ul {
     text-align: center;
 }
 
-.list-team{
-    background-color: #FFFFFF;
-}
-.list-our-team> {
+.list-our-team{
     background-color: #FFFFFF;
 }
 .paragraf-team{
@@ -184,7 +173,7 @@ ul {
 }
 /*section-4*/
 
-.section-four> .h-two-title{
+.section-four> .two-title{
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -195,7 +184,7 @@ ul {
     text-align: center;
 }
 
-.img-list-portfolio> .h-tree-title {
+.img-list-portfolio> .tree-title {
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
