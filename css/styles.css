@@ -4,13 +4,6 @@ body{
     background-color: white;
 }
 
-.body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
 ul {
     list-style-type: none;
 }
@@ -40,9 +33,6 @@ ul {
 
 .adress {
     font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .contacts-link {
@@ -84,20 +74,10 @@ ul {
 .active-contacts:hover{
     color: #404BBF;
 }
-.adress-list{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.contacts-link:hover,
-.contacts-link:focus {
-    color: #404bbf;
-}
 
 
 /*title-h2-h3*/
-.h-two-title{
+.two-title{
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -108,7 +88,7 @@ ul {
     text-align: center;
 }
 
-.h-tree-title{
+.tree-title{
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -121,7 +101,7 @@ ul {
 .section-one{
     background-color: #2E2F42;
 }
-.section-one .h-one-title {
+.one-title {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -136,7 +116,7 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     cursor: pointer;
     background-color: #4D5AE5;
     color: white;
@@ -167,7 +147,6 @@ ul {
     list-style-type: none;
 }
 
-
 .content-paragraf{
     letter-spacing: 0.02em;
 }
@@ -189,6 +168,9 @@ ul {
     text-align: center;
 }
 
+.list-team{
+    background-color: #FFFFFF;
+}
 .list-our-team> {
     background-color: #FFFFFF;
 }
