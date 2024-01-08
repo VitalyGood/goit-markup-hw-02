@@ -128,21 +128,16 @@ ul {
 }
 
 /*section-2*/
-.contact-list> .content-paragraf{
-    font-weight: 500;
-    font-size: 20px;
+.content-paragraf{
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #434455;
 }
 .sec-two-list{
     list-style-type: none;
 }
 
-.content-paragraf{
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-}
 
 /*section-3*/
 
