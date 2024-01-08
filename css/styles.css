@@ -49,9 +49,9 @@ ul {
     color: #434455;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.04em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
     font-style: normal;
 }
@@ -61,7 +61,7 @@ ul {
     color: #404bbf;
 } 
 
-.nav-list, .active-contacts {
+.active-contacts, .nav-list {
     color: #2E2F42;
     font-family: "Roboto",sans-serif;
     font-weight: 500;
@@ -89,16 +89,6 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.contacts-link {
-    color: #434455;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.04em;
-    text-decoration: none;
-    font-style: normal;
-}
 
 .contacts-link:hover,
 .contacts-link:focus {
@@ -107,7 +97,7 @@ ul {
 
 
 /*title-h2-h3*/
-.h2-title{
+.h-two-title{
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -118,7 +108,7 @@ ul {
     text-align: center;
 }
 
-.h3-title{
+.h-tree-title{
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -131,7 +121,7 @@ ul {
 .section-one{
     background-color: #2E2F42;
 }
-.section-one .h1-title {
+.section-one .h-one-title {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -188,7 +178,7 @@ ul {
     background-color: #F4F4FD;
 }
 
-.section-three> .h2-title{
+.section-three> .h-two-title{
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -199,7 +189,7 @@ ul {
     text-align: center;
 }
 
-.list-Team> .list-our-team> .h3-title{
+.list-our-team> {
     background-color: #FFFFFF;
 }
 .paragraf-team{
@@ -212,7 +202,7 @@ ul {
 }
 /*section-4*/
 
-.section-four> .h2-title{
+.section-four> .h-two-title{
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -223,7 +213,7 @@ ul {
     text-align: center;
 }
 
-.img-list-portfolio> .h3-title {
+.img-list-portfolio> .h-tree-title {
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
